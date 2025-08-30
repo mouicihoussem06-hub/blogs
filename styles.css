@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: verdana,sans-serif;
+    background-color: #3498db;
+    font-size: 40px;
+    border: 0px ;
+    margin: 0;
+    padding: 50px;   
+
+}
+.blog1{
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+    border: 2px ;
+    border-radius: 10px;
+}
+.blog1 h2{
+    text-align: center;
+    color: black;
+    font-family: verdana,sans-serif;
+    padding: 20px;
+    font-size: 35px;
+}
+.blog1 .par1{
+    
+    color: black;
+    font-family: verdana,sans-serif;
+    font-size: 16px;
+    float: italic;
+}
+.blog1 p{
+    color: black;
+    font-family: verdana,sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.lign{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    color:white ;
+    font-family: verdana,sans-serif;
+    background-color: #3498db;
+    font-size: 20px;
+    border: 0px ;
+    margin: 0;
+    padding: 20px;   
+}
+.blog2{
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+    border: 2px ;
+    border-radius: 10px;
+}
+.blog2 h2{
+    text-align: center;
+    color: black;
+    font-family: verdana,sans-serif;
+    padding: 20px;
+    font-size: 35px;
+}
+.blog2 .par1{
+    
+    color: black;
+    font-family: verdana,sans-serif;
+    font-size: 16px;
+    float: italic;
+}
+.blog2 p{
+    color: black;
+    font-family: verdana,sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+    

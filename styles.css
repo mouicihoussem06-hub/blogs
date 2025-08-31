@@ -1,3 +1,13 @@
+
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* couleur de fond claire */
+    color: #333; /* couleur du texte */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 h1{
     text-align: center;
     color: white;
@@ -9,33 +19,52 @@ h1{
     padding: 50px;   
 
 }
-.blog1{
-    background-color: whitesmoke;
-    margin: 20px;
+.blog-post {
+    background-color: #fff; /* fond blanc pour chaque article */
+    margin-bottom: 30px;
     padding: 20px;
-    border: 2px ;
-    border-radius: 10px;
+    border-radius: 10px; /* bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ombre subtile */
 }
-.blog1 h2{
-    text-align: center;
-    color: black;
-    font-family: verdana,sans-serif;
-    padding: 20px;
-    font-size: 35px;
+.post-title {
+    text-align: center; /* titre centré */
+    font-size: 2em;
+    font-weight: bold;
+    color: #2c3e50; /* couleur gris foncé */
+    text-transform: capitalize; /* transforme la première lettre de chaque mot en majuscule */
 }
-.blog1 .par1{
-    
-    color: black;
-    font-family: verdana,sans-serif;
-    font-size: 16px;
-    float: italic;
+
+
+.post-author ,
+.post-date {
+    font-style: italic; /* texte en italique */
+    font-size: 0.9em;
+    color: #7f8c8d; /* couleur gris clair */
+    text-align: left;
 }
-.blog1 p{
-    color: black;
-    font-family: verdana,sans-serif;
-    font-size: 18px;
-    text-align: justify;
-    line-height: 1.6;
+
+.post-content {
+    text-align: justify; /* justifie le texte */
+    font-size: 1.1em;
+    color: #2c3e50; /* couleur gris foncé */
+}
+
+/* Espacement des lettres et des mots */
+.post-title, .post-author {
+    letter-spacing: 1px; /* espacement des lettres */
+}
+
+.post-content {
+    word-spacing: 4px; /* espacement des mots */
+}
+
+/* Décoration du texte */
+.underline {
+    text-decoration: underline; /* texte souligné */
+}
+
+.line-through {
+    text-decoration: line-through; /* texte barré */
 }
 .lign{
     font-weight: bold;
